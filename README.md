@@ -4,10 +4,6 @@
 
 **Ứng dụng này sử dụng công nghệ API Node.js để xây dựng phía server và sử dụng Flutter để xây dựng phía client.**
 
-**Đây là mô tả ngắn về ứng dụng di động Ecomly (nó vẫn đang trong giai đoạn developer)**
-
-**Ứng dụng này sử dụng công nghệ API Node.js để xây dựng phía server và sử dụng Flutter để xây dựng phía client.**
-
 - Clean architecture với Riverpod 2.0.
 - Backend MVC.
 - Restful API
