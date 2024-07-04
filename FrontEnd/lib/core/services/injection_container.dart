@@ -1,0 +1,21 @@
+import 'package:dbestech_ecomly/core/common/app/cache_helper.dart';
+import 'package:dbestech_ecomly/src/auth/data/datasources/auth_remote_data_source.dart';
+import 'package:dbestech_ecomly/src/auth/data/repositories/auth_repository_implementation.dart';
+import 'package:dbestech_ecomly/src/auth/domain/repositories/auth_repository.dart';
+import 'package:dbestech_ecomly/src/auth/domain/usecases/forgot_password.dart';
+import 'package:dbestech_ecomly/src/auth/domain/usecases/login.dart';
+import 'package:dbestech_ecomly/src/auth/domain/usecases/register.dart';
+import 'package:dbestech_ecomly/src/auth/domain/usecases/reset_password.dart';
+import 'package:dbestech_ecomly/src/auth/domain/usecases/verify_o_t_p.dart';
+import 'package:dbestech_ecomly/src/auth/domain/usecases/verify_token.dart';
+import 'package:dbestech_ecomly/src/user/data/datasources/user_remote_data_src.dart';
+import 'package:dbestech_ecomly/src/user/data/repos/user_repo_impl.dart';
+import 'package:dbestech_ecomly/src/user/domain/repos/user_repo.dart';
+import 'package:dbestech_ecomly/src/user/domain/usecases/get_user.dart';
+import 'package:dbestech_ecomly/src/user/domain/usecases/get_user_payment_profile.dart';
+import 'package:dbestech_ecomly/src/user/domain/usecases/update_user.dart';
+import 'package:get_it/get_it.dart';
+import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
+
+part 'injection_container.main.dart';
